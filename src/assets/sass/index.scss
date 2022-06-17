@@ -1,0 +1,103 @@
+@import "_designsystem";
+@import "_global";
+
+@media (max-width: 1399.98px) {
+}
+@media (max-width: 1199.98px) {
+}
+@media (max-width: 991.98px) {
+}
+@media (max-width: 767.98px) {
+}
+@media (max-width: 575.98px) {
+}
+
+#lp {
+  .topo {
+    background-image: url(../img/back-desktop.webp);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #05030b;
+    background-size: cover;
+    @media (max-width: 767.98px) {
+      background-image: url(../img/back-mobile.webp);
+      background-position: center top;
+    }
+    @media (max-width: 575.98px) {
+    }
+    @media (max-width: 475.98px) {
+    }
+    @media (max-width: 375.98px) {
+    }
+    .layer-black {
+      background-color: rgba(0, 0, 0, 0.5);
+      min-height: 470px;
+      padding-top: 183px;
+      padding-bottom: 110px;
+      .domine-metodo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .valuation {
+          max-width: 300px;
+          width: 100%;
+          height: auto;
+        }
+        h1 {
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 145%;
+          letter-spacing: 0.035em;
+          color: #E3E3E3;
+          margin-top: 48px;
+        }
+        p {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 135%;
+          letter-spacing: 0.05em;
+          color: #C0BDBD;
+          margin-top: 16px;
+        }
+
+        .form-content{
+          background: url(../img/back-form.webp);
+          background-size: cover;
+          background-position: center center;
+          background-repeat: no-repeat;
+          border-radius: 42px;
+          height: auto;
+          padding: 32px;
+          display: flex;
+          align-items: start;
+          justify-content: space-around;
+          flex-direction: column;
+
+          p {
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 129.5%;
+            letter-spacing: 0.035em;
+            color: #FFFFFF;
+          }
+
+          form {
+            display: flex;
+            align-items: start;
+            justify-content: start;
+            flex-direction: column;
+          }
+        }
+      }
+    }
+    
+    .barra {
+      background: rgba(0, 0, 0, 0);
+      position: fixed;
+      top: 0;
+      width: 100%;
+    } //barra
+
+    
+  } //topo
+} //#lp

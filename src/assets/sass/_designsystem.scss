@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://use.typekit.net/xuh1yop.css');
+
+@import url('https://unpkg.com/aos@2.3.1/dist/aos.css');
+ 
+ 
+$font-primary: 'Termina', sans-serif; //400 e 700
+$font-secondary: '', sans-serif; // 400 , 700 e 800
+
+/* Fonts & Colors */
+$color-primary:  #FAFAFA;
+$color-secondary:  #00F729;
+$fundo-black:  #131313;
+
+
+/* Breakpoints (based on chrome) não utilizado quando criado a lp com bootstrap */
+//$mobile-xs: 320px;
+//$mobile-m: 375px;
+//$mobile-l: 425px;
+//$tablet: 768px;
+//$desktop: 1024px;
+//$desktop-large: 1440px;
+//$desktop-4k: 1600px;

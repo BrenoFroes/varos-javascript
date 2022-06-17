@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://use.typekit.net/xuh1yop.css");
+@import url("https://unpkg.com/aos@2.3.1/dist/aos.css");
+/* Fonts & Colors */
+/* Breakpoints (based on chrome) não utilizado quando criado a lp com bootstrap */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Termina", sans-serif; }
+
+body, p, input, label, a {
+  font-family: "", sans-serif; }
+
+html {
+  scroll-behavior: smooth; }
+
+.barra {
+  background-color: transparent; }
+
+#lp .topo {
+  background-image: url(../img/back-desktop.webp);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #05030b;
+  background-size: cover; }
+  @media (max-width: 767.98px) {
+    #lp .topo {
+      background-image: url(../img/back-mobile.webp);
+      background-position: center top; } }
+  #lp .topo .layer-black {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 470px;
+    padding-top: 183px;
+    padding-bottom: 110px; }
+    #lp .topo .layer-black .domine-metodo {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      #lp .topo .layer-black .domine-metodo .valuation {
+        max-width: 300px;
+        width: 100%;
+        height: auto; }
+      #lp .topo .layer-black .domine-metodo h1 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 145%;
+        letter-spacing: 0.035em;
+        color: #E3E3E3;
+        margin-top: 48px; }
+      #lp .topo .layer-black .domine-metodo p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 135%;
+        letter-spacing: 0.05em;
+        color: #C0BDBD;
+        margin-top: 16px; }
+      #lp .topo .layer-black .domine-metodo .form-content {
+        background: url(../img/back-form.webp);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border-radius: 42px;
+        height: auto;
+        padding: 32px;
+        display: flex;
+        align-items: start;
+        justify-content: space-around;
+        flex-direction: column; }
+        #lp .topo .layer-black .domine-metodo .form-content p {
+          font-weight: 600;
+          font-size: 28px;
+          line-height: 129.5%;
+          letter-spacing: 0.035em;
+          color: #FFFFFF; }
+        #lp .topo .layer-black .domine-metodo .form-content form {
+          display: flex;
+          align-items: start;
+          justify-content: start;
+          flex-direction: column; }
+  #lp .topo .barra {
+    background: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 0;
+    width: 100%; }
