@@ -13,6 +13,45 @@
 }
 
 #lp {
+  .btn-black {
+    width: 100%;
+    height: 43px;
+    color: white;
+    margin-top: 20px;
+    background: #131313;
+    border: 0.5px solid #00F729;
+    border-radius: 7px;
+    transition: all 1s;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 135%;
+    letter-spacing: 0.04em;
+    color: #EEEEEE;
+  }
+  .btn-black:hover {
+    background-color: #00F729;
+    color: #131313;
+  }
+  .btn-green {
+    width: 100%;
+    height: 43px;
+    color: #131313;
+    margin-top: 20px;
+    background: #00F729;
+    border: 0.5px solid #00F729;
+    border-radius: 7px;
+    transition: all 1s;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 135%;
+    letter-spacing: 0.04em;
+  }
+  .btn-green:hover {
+    background-color: #131313;
+    color: white;
+  }
   .topo {
     background-image: url(../img/back-desktop.webp);
     background-repeat: no-repeat;
@@ -59,7 +98,48 @@
           color: #C0BDBD;
           margin-top: 16px;
         }
-
+        .avaliacao {
+          p {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 129.5%;
+            letter-spacing: 0.035em;
+            color: #D9D9D9;
+            @media (max-width: 1399.98px) {
+            }
+            @media (max-width: 1199.98px) {
+            }
+            @media (max-width: 991.98px) {
+              font-size: 14px;
+            }
+            @media (max-width: 767.98px) {
+              font-size: 12px;
+            }
+            @media (max-width: 575.98px) {
+            }
+          }
+          .stars {
+            margin: 8px auto 8px 0;
+          }
+          .nps {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 13px;
+            color: #EEEEEE;
+            @media (max-width: 1399.98px) {
+            }
+            @media (max-width: 1199.98px) {
+            }
+            @media (max-width: 991.98px) {
+              font-size: 12px;
+            }
+            @media (max-width: 767.98px) {
+              font-size: 10px;
+            }
+            @media (max-width: 575.98px) {
+            }
+          }
+        }
         .form-content{
           background: url(../img/back-form.webp);
           background-size: cover;
@@ -72,20 +152,30 @@
           align-items: start;
           justify-content: space-around;
           flex-direction: column;
-
           p {
+            margin: 0;
             font-weight: 600;
             font-size: 28px;
             line-height: 129.5%;
             letter-spacing: 0.035em;
             color: #FFFFFF;
           }
-
           form {
+            width: 100%;
             display: flex;
             align-items: start;
             justify-content: start;
             flex-direction: column;
+            .form-control {
+              padding: 10px 16px;
+              gap: 10px;
+              width: 100%;
+              height: 39px;
+              background: #D9D9D9;
+              border-radius: 7px;
+              margin: 20px auto 0 auto;
+            }
+            
           }
         }
       }
@@ -96,6 +186,9 @@
       position: fixed;
       top: 0;
       width: 100%;
+      .collapse {
+        justify-content: end;
+      }
     } //barra
 
     
