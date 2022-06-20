@@ -18,8 +18,8 @@
     height: 43px;
     color: white;
     margin-top: 20px;
-    background: #131313;
-    border: 0.5px solid #00F729;
+    background: $fundo-black;
+    border: 0.5px solid $color-primary;
     border-radius: 7px;
     transition: all 1s;
 
@@ -30,16 +30,16 @@
     color: #EEEEEE;
   }
   .btn-black:hover {
-    background-color: #00F729;
-    color: #131313;
+    background-color: $color-primary;
+    color: $fundo-black;
   }
   .btn-green {
     width: 100%;
     height: 43px;
-    color: #131313;
+    color: $fundo-black;
     margin-top: 20px;
-    background: #00F729;
-    border: 0.5px solid #00F729;
+    background: $color-primary;
+    border: 0.5px solid $color-primary;
     border-radius: 7px;
     transition: all 1s;
 
@@ -49,13 +49,13 @@
     letter-spacing: 0.04em;
   }
   .btn-green:hover {
-    background-color: #131313;
+    background-color: $fundo-black;
     color: white;
   }
   .topo {
     background-image: url(../img/back-desktop.webp);
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center bottom;
     background-color: #05030b;
     background-size: cover;
     @media (max-width: 767.98px) {
@@ -189,8 +189,59 @@
       .collapse {
         justify-content: end;
       }
-    } //barra
-
-    
+    } //barra    
   } //topo
+
+  .preparado {
+    background-color: rgb(10, 10, 10);
+    padding-top: 110px;
+    padding-bottom: 110px;
+    @media (max-width: 1399.98px) {
+    }
+    @media (max-width: 1199.98px) {
+    }
+    @media (max-width: 991.98px) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    @media (max-width: 767.98px) {
+      padding-top: 65px;
+      padding-bottom: 65px;
+    }
+    @media (max-width: 575.98px) {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    h1 {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 129.5%;
+      text-align: center;
+      letter-spacing: 0.035em;
+      color: #E3E3E3;
+      margin-bottom: 64px;
+      span {
+        color: $color-primary;
+      }
+    }
+    .feature {
+      margin: 0 auto 48px auto;
+      min-height: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      flex-direction: column;
+      width: 150px;
+      img {
+        margin-bottom: 20px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        color: #EEEEEE;
+      }
+    }
+  }
 } //#lp
