@@ -122,6 +122,9 @@ html {
         @media (max-width: 1199.98px) {
           #lp .topo .layer-black .domine-metodo h1 {
             font-size: 24px; } }
+        @media (max-width: 991.98px) {
+          #lp .topo .layer-black .domine-metodo h1 {
+            font-size: 18px; } }
         @media (max-width: 767.98px) {
           #lp .topo .layer-black .domine-metodo h1 {
             font-size: 26px; } }
@@ -152,15 +155,13 @@ html {
         @media (max-width: 767.98px) {
           #lp .topo .layer-black .domine-metodo .avaliacao p {
             font-size: 12px;
-            text-align: center; } }
-        @media (max-width: 575.98px) {
-          #lp .topo .layer-black .domine-metodo .avaliacao p {
+            text-align: center;
             margin-top: 18px; } }
       #lp .topo .layer-black .domine-metodo .avaliacao .stars {
         margin: 8px auto 8px 0; }
         @media (max-width: 767.98px) {
           #lp .topo .layer-black .domine-metodo .avaliacao .stars {
-            margin: 18px auto 8px auto; } }
+            margin: 4px auto 4px auto; } }
       #lp .topo .layer-black .domine-metodo .avaliacao .nps {
         font-weight: 400;
         font-size: 14px;
